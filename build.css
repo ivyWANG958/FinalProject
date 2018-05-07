@@ -1,0 +1,1021 @@
+@import url(ad.css);
+.g-mobile-portrait .story.theme-main .story-header .interactive-headline.story-heading {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    position: static;
+}
+
+.g-mobile-portrait .kicker-container .g-kicker-brazil {
+    position: static;
+    margin-bottom: 36px;
+    width: 114px;
+}
+
+.g-mobile-portrait #g-kicker-right {
+    display: none;
+}
+
+.g-mobile-portrait #g-teams-and-clubs {
+    padding-top: 0;
+}
+
+.g-mobile-portrait #g-teams-and-clubs #g-graph {
+    display: none !important;
+}
+
+.g-mobile-portrait #g-teams-and-clubs #g-slides {
+    width: 100%;
+    display: block;
+}
+
+.g-mobile-portrait #g-teams-and-clubs #g-slides .slide {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.g-mobile-portrait #g-teams-and-clubs #g-slides .slide .anchor {
+    top: 0px;
+}
+
+.g-mobile-portrait #g-teams-and-clubs #g-slides .slide h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.g-mobile-portrait #g-teams-and-clubs #g-slides .slide img.static {
+    width: 100%;
+}
+
+.g-mobile-portrait #g-teams-and-clubs #g-slides .slide .img-caption {
+    font-size: 13px;
+    font-style: italic;
+    color: #999999;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0 30px;
+}
+
+.g-mobile-portrait #g-teams-and-clubs #g-slides .slide .legend {
+    line-height: 20px;
+}
+
+.g-mobile-portrait #g-teams-and-clubs #g-slides .slide .legend .item {
+    margin-right: 10px;
+}
+
+.g-mobile-portrait #g-teams-and-clubs #g-slides .slide .legend .item .label {
+    font-size: 12px;
+}
+
+.g-mobile-portrait #g-teams-and-clubs #g-slides .slide .legend .item .color {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.g-mobile-portrait #g-teams-and-clubs #g-slides .slide.hidden {
+    display: block;
+}
+
+.g-mobile-portrait #g-teams-and-clubs #g-slides .slide.explore {
+    display: none;
+}
+
+.g-mobile-portrait #g-teams-and-clubs #g-slides .slide.intro {
+    margin-top: 30px;
+}
+
+.g-mobile-portrait .interactive-byline {
+    text-align: center;
+}
+
+.g-mobile-portrait .interactive-byline .byline-dateline {
+    margin-right: 0px;
+}
+
+.g-tablet-portrait .story.theme-main .story-header .interactive-headline.story-heading {
+    font-size: 52px;
+    width: auto;
+    margin: 0 50px 0;
+    text-align: center;
+    position: static;
+}
+
+.g-tablet-portrait .kicker-container .g-kicker-brazil {
+    position: static;
+    margin-bottom: 36px;
+    width: 114px;
+}
+
+.g-tablet-portrait #g-kicker-right {
+    display: none;
+}
+
+.g-tablet-portrait #g-teams-and-clubs {
+    padding-top: 0;
+}
+
+.g-tablet-portrait #g-teams-and-clubs #g-graph {
+    display: none !important;
+}
+
+.g-tablet-portrait #g-teams-and-clubs #g-slides {
+    width: 100%;
+    display: block;
+}
+
+.g-tablet-portrait #g-teams-and-clubs #g-slides .slide {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.g-tablet-portrait #g-teams-and-clubs #g-slides .slide .anchor {
+    top: 0px;
+}
+
+.g-tablet-portrait #g-teams-and-clubs #g-slides .slide h2 {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.g-tablet-portrait #g-teams-and-clubs #g-slides .slide img.static {
+    width: 90%;
+}
+
+.g-tablet-portrait #g-teams-and-clubs #g-slides .slide.brazil-vs-argentina img.static {
+    width: 70%;
+}
+
+.g-tablet-portrait #g-teams-and-clubs #g-slides .slide .img-caption {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0 30px;
+}
+
+.g-tablet-portrait #g-teams-and-clubs #g-slides .slide .legend {
+    line-height: 20px;
+}
+
+.g-tablet-portrait #g-teams-and-clubs #g-slides .slide .legend .item {
+    margin-right: 10px;
+}
+
+.g-tablet-portrait #g-teams-and-clubs #g-slides .slide .legend .item .label {
+    font-size: 12px;
+}
+
+.g-tablet-portrait #g-teams-and-clubs #g-slides .slide .legend .item .color {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.g-tablet-portrait #g-teams-and-clubs #g-slides .slide.hidden {
+    display: block;
+}
+
+.g-tablet-portrait #g-teams-and-clubs #g-slides .slide.explore {
+    display: none;
+}
+
+.g-tablet-portrait #g-teams-and-clubs #g-slides .slide.intro {
+    margin-top: 0px;
+}
+
+.g-tablet-portrait .interactive-byline {
+    text-align: center;
+}
+
+.g-tablet-portrait .interactive-byline .byline-dateline {
+    margin-right: 0px;
+}
+
+.g-tablet-landscape .story.theme-main .story-header .interactive-headline.story-heading {
+    font-size: 46px;
+    width: 100%;
+    z-index: 10;
+}
+
+.g-tablet-landscape #g-teams-and-clubs {
+    padding-top: 0;
+}
+
+.g-tablet-landscape #g-teams-and-clubs #g-graph {
+    display: none !important;
+}
+
+.g-tablet-landscape #g-teams-and-clubs #g-graph #g-caption {
+    display: none !important;
+}
+
+.g-tablet-landscape #g-teams-and-clubs #g-slides {
+    width: 100% !important;
+    display: block;
+}
+
+.g-tablet-landscape #g-teams-and-clubs #g-slides .slide {
+    margin: 140px 0;
+    min-height: 580px;
+    position: relative;
+    display: block;
+    padding-right: 700px;
+}
+
+.g-tablet-landscape #g-teams-and-clubs #g-slides .slide .anchor {
+    top: 0px;
+}
+
+.g-tablet-landscape #g-teams-and-clubs #g-slides .slide img.static {
+    position: absolute;
+    width: 650px !important;
+    display: block !important;
+    right: 0px;
+    top: -150px;
+}
+
+.g-tablet-landscape #g-teams-and-clubs #g-slides .slide .img-caption {
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    text-align: right;
+    right: 0;
+    top: -150px;
+    width: 150px;
+    z-index: 10;
+}
+
+.g-tablet-landscape #g-teams-and-clubs #g-slides .slide .legend {
+    line-height: 20px;
+}
+
+.g-tablet-landscape #g-teams-and-clubs #g-slides .slide .legend .item {
+    margin-right: 10px;
+}
+
+.g-tablet-landscape #g-teams-and-clubs #g-slides .slide .legend .item .label {
+    font-size: 12px;
+}
+
+.g-tablet-landscape #g-teams-and-clubs #g-slides .slide .legend .item .color {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.g-tablet-landscape #g-teams-and-clubs #g-slides .slide.hidden {
+    display: block;
+}
+
+.g-tablet-landscape #g-teams-and-clubs #g-slides .slide.explore {
+    display: none;
+}
+
+.g-tablet-landscape #g-teams-and-clubs #g-slides .slide.intro {
+    margin-top: 240px !important;
+}
+
+.g-tablet-landscape .interactive-byline {
+    text-align: center;
+}
+
+.g-tablet-landscape .interactive-byline .byline-dateline {
+    margin-right: 0px;
+}
+
+.viewport-medium-30 .story.theme-main {
+    margin-top: 42px;
+}
+
+.viewport-medium-30 .interactive-byline {
+    position: absolute;
+    top: 210px;
+}
+
+.viewport-medium-30 .kicker-container .g-kicker-brazil {
+    font-size: 22px;
+}
+
+.viewport-medium-30 #g-teams-and-clubs #g-graph {
+    width: 595px;
+}
+
+.viewport-medium-30 #g-teams-and-clubs #g-graph #g-caption {
+    top: 0px;
+    width: 150px;
+}
+
+.viewport-medium-30 #g-teams-and-clubs #g-slides {
+    width: 270px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.viewport-medium-30 #g-teams-and-clubs #g-slides .slide {
+    margin: 100px 0;
+}
+
+.viewport-medium-30 #g-teams-and-clubs #g-slides .slide p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.viewport-medium-30 #g-teams-and-clubs #g-slides .slide.intro {
+    margin-top: 200px;
+}
+
+.viewport-medium-30 #g-teams-and-clubs #g-slides .slide .legend .item .label {
+    font-size: 12px;
+}
+
+.viewport-medium-30 #g-teams-and-clubs #g-slides .slide.uefa .legend .item {
+    display: block;
+}
+
+.viewport-medium-30 #g-teams-and-clubs #g-slides .slide img.static {
+    display: none;
+}
+
+.viewport-medium-30 #g-teams-and-clubs #g-slides .slide .img-caption {
+    display: none;
+}
+
+.viewport-medium-30 #g-teams-and-clubs .node text {
+    font-size: 13px;
+}
+
+.viewport-medium-30 .story.theme-main .story-header .interactive-headline.story-heading {
+    font-size: 45px;
+    letter-spacing: 5px;
+    top: 50px;
+    width: 450px;
+    margin-bottom: 30px;
+}
+
+.viewport-large-30 #g-teams-and-clubs #g-graph {
+    width: 665px;
+}
+
+.viewport-large-50 .story.theme-main {
+    margin-top: 52px;
+}
+
+.viewport-large-50 .interactive-byline {
+    position: absolute;
+    top: 280px;
+}
+
+.viewport-large-50 main#main {
+    max-width: 1300px !important;
+    width: 100%;
+}
+
+.viewport-large-50 .kicker-container .g-kicker-brazil {
+    font-size: 26px;
+}
+
+.viewport-large-50 #g-teams-and-clubs #g-graph {
+    width: 915px;
+}
+
+.viewport-large-50 #g-teams-and-clubs #g-graph #g-caption {
+    top: 30px;
+    width: 180px;
+}
+
+.viewport-large-50 #g-teams-and-clubs #g-slides {
+    width: 300px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.viewport-large-50 #g-teams-and-clubs #g-slides .slide {
+    margin: 150px 0;
+}
+
+.viewport-large-50 #g-teams-and-clubs #g-slides .slide p {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 23px;
+    line-height: 1.4375rem;
+}
+
+.viewport-large-50 #g-teams-and-clubs #g-slides .slide .legend .item .label {
+    font-size: 14px;
+}
+
+.viewport-large-50 #g-teams-and-clubs #g-slides .slide.intro {
+    margin-top: 280px;
+}
+
+.viewport-large-50 #g-teams-and-clubs .node text {
+    font-size: 13px !important;
+    text-transform: none !important;
+}
+
+.viewport-large-50 .story.theme-main .story-header .interactive-headline.story-heading {
+    font-size: 63px;
+    letter-spacing: 5px;
+    top: 50px;
+    width: 605px;
+    margin-bottom: 30px;
+}
+
+.ipad-landscale #g-slides {
+    width: 270px;
+}
+
+.ipad-landscale #g-graph {
+    width: 640px;
+}
+
+.ipad-portrait #g-graph {
+    width: 680px;
+}
+
+.ipad-portrait #g-teams-and-clubs {
+    min-height: 0;
+    text-align: center;
+    padding-bottom: 300px;
+    position: relative;
+}
+
+.ipad-portrait html #g-graph.fixed {
+    position: static;
+}
+
+.ipad-portrait #g-slides {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 720px;
+}
+
+.ipad-portrait #g-slides .slide {
+    margin: 0;
+    display: inline-block;
+    height: 300px;
+    padding: 0 40px;
+}
+
+.ipad-portrait #g-slides .slide .scroll {
+    display: none;
+}
+
+.ipad-portrait html .story.theme-main .story-header .interactive-headline.story-heading {
+    font-size: 64px;
+    letter-spacing: 5px;
+    font-family: "nyt-franklin", arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 100%;
+    position: static;
+    line-height: 1.1;
+    text-align: center;
+    font-style: italic;
+    margin: 20px 0 30px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialias;
+}
+
+.mmobile #g-graph {
+    width: 300px;
+}
+
+.mmobile #g-teams-and-clubs {
+    min-height: 0;
+    text-align: center;
+    padding-bottom: 300px;
+    position: relative;
+}
+
+.mmobile html #g-graph.fixed {
+    position: static;
+}
+
+.mmobile #g-slides {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 340px;
+}
+
+.mmobile #g-slides .slide {
+    margin: 0;
+    display: inline-block;
+    height: 300px;
+    padding: 0 20px;
+}
+
+.mmobile #g-slides .slide p {
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.mmobile #g-slides .slide .scroll {
+    display: none;
+}
+
+#g-refers {
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    color: #cccccc;
+    border-top: 1px solid #dbdbdb;
+    margin-top: 60px;
+}
+
+#g-refers .g-refer-text {
+    margin: 20px 0 20px;
+    width: 100%;
+    clear: both;
+}
+
+.tinyportrait #g-refers .g-refer-text.g-clearfix {
+    width: 70%;
+    margin: 20px auto;
+}
+
+#g-refers a {
+    color: #333333;
+}
+
+#g-refers a:hover {
+    text-decoration: none;
+    color: #333333;
+}
+
+#g-refers a:hover p {
+    text-decoration: underline;
+}
+
+#g-refers h2 {
+    font: 400 22px/28px "Circular std", CircularBlack, nyt-franklin, helvetica, arial;
+    margin-bottom: 6px;
+    color: white;
+}
+
+#g-refers h3 {
+    font: 200 16px/22px "Circular std", CircularBlack, nyt-franklin, helvetica, arial;
+    width: 100%;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#g-refers h4 {
+    clear: both;
+    font: 200 14px/22px "nyt-franklin", arial;
+    text-transform: uppercase;
+    width: 100%;
+    color: #333333;
+    font-weight: 300;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+#g-refers h5 {
+    font: normal 12px/12px nyt-franklin, Helvetica, Arial;
+    text-transform: uppercase;
+    margin: 8px 0;
+    font-weight: 700;
+}
+
+#g-refers h5>span {
+    color: #555555;
+    display: inline-block;
+    margin-left: 5px;
+    padding-left: 10px;
+    border-left: 1px solid #333333;
+    font-weight: 300;
+    text-transform: none;
+}
+
+#g-refers p {
+    font: normal 14px/20px nyt-franklin, Helvetica, Arial;
+    max-width: 700px;
+}
+
+#g-refers .g-refer {
+    margin: 10px auto;
+    width: 100%;
+}
+
+.viewport-small-10 #g-refers .g-refer {
+    float: left;
+    width: 43%;
+    margin: 10px 5% 0px 0;
+}
+
+.viewport-medium #g-refers .g-refer {
+    width: 31%;
+    margin: 20px 3% 0px 0;
+}
+
+.viewport-medium #g-refers .g-refer:last-child {
+    margin-right: 0;
+}
+
+#g-refers .g-refer p {
+    color: #333333;
+    font-size: 17px;
+    font-family: "nyt-franklin", arial, sans-serif;
+    font-weight: 300;
+}
+
+#g-refers .g-credits {
+    margin-top: 20px;
+    max-width: 380px;
+}
+
+#g-refers .g-credits p {
+    margin: 4px auto;
+    font: normal 12px/16px nyt-franklin, Helvetica, Arial;
+    color: #666666;
+}
+
+#g-refers>.g-icon {
+    display: block;
+    margin: 40px 0;
+}
+
+#g-refers>img {
+    width: 100%;
+    display: block;
+    margin: 40px auto 20px;
+}
+
+#g-teams-and-clubs {
+    position: relative;
+    font-family: nyt-franklin;
+    vertical-align: top;
+    padding-top: 50px;
+    min-height: 1000px;
+}
+
+#g-teams-and-clubs #g-graph {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 765px;
+}
+
+#g-teams-and-clubs #g-graph.fixed {
+    position: fixed;
+    top: 60px;
+}
+
+#g-teams-and-clubs #g-graph.fixed.fixed-bottom {
+    position: absolute !important;
+    bottom: 0px;
+    top: auto;
+}
+
+#g-teams-and-clubs svg text {
+    font-family: nyt-franklin;
+}
+
+#g-teams-and-clubs .node {
+    -webkit-transition: opacity 0.7s;
+    -moz-transition: opacity 0.7s;
+    transition: opacity 0.7s;
+}
+
+#g-teams-and-clubs .node circle {
+    stroke: white;
+    stroke-width: 0.5px;
+}
+
+#g-teams-and-clubs .node.fade {
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+
+#g-teams-and-clubs .node text {
+    text-anchor: middle;
+    font-weight: bold;
+    fill: black;
+    stroke: false;
+    font-size: 11px;
+}
+
+#g-teams-and-clubs .node.team * {
+    cursor: pointer;
+}
+
+#g-teams-and-clubs .node.team circle {
+    fill: whitesmoke;
+    stroke: #888888;
+}
+
+#g-teams-and-clubs .node.team.focus circle {
+    fill: #e9e9e9;
+    stroke: #888888;
+}
+
+#g-teams-and-clubs .node.team text {
+    font-weight: bold;
+    fill: black;
+    display: block;
+    text-shadow: -2px -2px 0px whitesmoke, -2px -1px 0px whitesmoke, -2px 0px 0px whitesmoke, -2px 1px 0px whitesmoke, -2px 2px 0px whitesmoke, -1px -2px 0px whitesmoke, -1px -1px 0px whitesmoke, -1px 0px 0px whitesmoke, -1px 1px 0px whitesmoke, -1px 2px 0px whitesmoke, 0px -2px 0px whitesmoke, 0px -1px 0px whitesmoke, 0px 1px 0px whitesmoke, 0px 2px 0px whitesmoke, 1px -2px 0px whitesmoke, 1px -1px 0px whitesmoke, 1px 0px 0px whitesmoke, 1px 1px 0px whitesmoke, 1px 2px 0px whitesmoke, 2px -2px 0px whitesmoke, 2px -1px 0px whitesmoke, 2px 0px 0px whitesmoke, 2px 1px 0px whitesmoke, 2px 2px 0px whitesmoke;
+}
+
+#g-teams-and-clubs .node.team:hover circle {
+    stroke: black;
+    fill: #e9e9e9;
+    stroke-width: 2px;
+}
+
+#g-teams-and-clubs .node.team.fade:hover {
+    opacity: 1 !important;
+}
+
+#g-teams-and-clubs .node.team.fade:hover circle {
+    fill: #777777 !important;
+    stroke: 0;
+}
+
+#g-teams-and-clubs .node.team.fade:hover text {
+    fill: white;
+}
+
+#g-teams-and-clubs .node.team.selected circle,
+#g-teams-and-clubs .node.team.focus circle {
+    fill: #797b7c;
+    stroke: #797b7c;
+}
+
+#g-teams-and-clubs .node.team.selected text,
+#g-teams-and-clubs .node.team.focus text {
+    fill: white;
+    text-shadow: -2px -2px 0px #797b7c, -2px -1px 0px #797b7c, -2px 0px 0px #797b7c, -2px 1px 0px #797b7c, -2px 2px 0px #797b7c, -1px -2px 0px #797b7c, -1px -1px 0px #797b7c, -1px 0px 0px #797b7c, -1px 1px 0px #797b7c, -1px 2px 0px #797b7c, 0px -2px 0px #797b7c, 0px -1px 0px #797b7c, 0px 1px 0px #797b7c, 0px 2px 0px #797b7c, 1px -2px 0px #797b7c, 1px -1px 0px #797b7c, 1px 0px 0px #797b7c, 1px 1px 0px #797b7c, 1px 2px 0px #797b7c, 2px -2px 0px #797b7c, 2px -1px 0px #797b7c, 2px 0px 0px #797b7c, 2px 1px 0px #797b7c, 2px 2px 0px #797b7c !important;
+}
+
+#g-teams-and-clubs .node.fade {
+    opacity: 0.3 !important;
+}
+
+#g-teams-and-clubs .node.fade text {
+    display: none !important;
+}
+
+#g-teams-and-clubs .node.fade circle {
+    fill: #cccccc !important;
+}
+
+#g-teams-and-clubs .link.fade {
+    opacity: 0;
+}
+
+#g-teams-and-clubs .node.player text,
+#g-teams-and-clubs .node.club text {
+    font-size: 10px;
+    text-transform: uppercase;
+    display: none;
+}
+
+#g-teams-and-clubs .node.player.highlighted circle {
+    stroke: black;
+    stroke-width: 3px;
+}
+
+#g-teams-and-clubs .node.club.top-club text {
+    display: block;
+    font-weight: 400;
+}
+
+#g-teams-and-clubs .node.player:hover text {
+    display: block;
+}
+
+#g-teams-and-clubs .node.club:hover text {
+    display: block;
+    font-weight: bold !important;
+}
+
+#g-teams-and-clubs .link {
+    stroke-width: 0.6px;
+    stroke-opacity: 1;
+}
+
+#g-teams-and-clubs .link.focus {
+    stroke-width: 1.4px !important;
+}
+
+#g-teams-and-clubs svg.brazil-vs-argentina .link {
+    stroke-width: 1px !important;
+}
+
+#g-teams-and-clubs .node.player.focus text {
+    display: block;
+    text-shadow: -2px -2px 0px white, -2px -1px 0px white, -2px 0px 0px white, -2px 1px 0px white, -2px 2px 0px white, -1px -2px 0px white, -1px -1px 0px white, -1px 0px 0px white, -1px 1px 0px white, -1px 2px 0px white, 0px -2px 0px white, 0px -1px 0px white, 0px 1px 0px white, 0px 2px 0px white, 1px -2px 0px white, 1px -1px 0px white, 1px 0px 0px white, 1px 1px 0px white, 1px 2px 0px white, 2px -2px 0px white, 2px -1px 0px white, 2px 0px 0px white, 2px 1px 0px white, 2px 2px 0px white;
+}
+
+#g-teams-and-clubs .node.club.focus text {
+    display: block;
+}
+
+#g-teams-and-clubs .node.team.fade text {
+    display: block;
+    text-shadow: none;
+    fill: black;
+}
+
+#g-teams-and-clubs .node.player.focus text {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+#g-teams-and-clubs .node.focus:hover text {
+    font-weight: bold !important;
+}
+
+#g-teams-and-clubs #g-caption {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: nyt-franklin;
+    width: 180px;
+}
+
+#g-teams-and-clubs #g-slides .slide {
+    position: relative;
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    transition: color 0.4s;
+}
+
+#g-teams-and-clubs #g-slides .slide h2 a {
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    transition: color 0.4s;
+}
+
+#g-teams-and-clubs #g-slides .slide .anchor {
+    position: absolute;
+    top: -300px;
+    left: -40px;
+    width: 20px;
+    height: 20px;
+}
+
+#g-teams-and-clubs #g-slides .slide.intro h2 {
+    display: none;
+}
+
+#g-teams-and-clubs #g-slides .slide.intro .scroll {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#g-teams-and-clubs #g-slides .slide.explore {
+    min-height: 600px;
+}
+
+#g-teams-and-clubs #g-slides .slide h2 {
+    font-family: nyt-franklin;
+    margin-bottom: 10px;
+}
+
+#g-teams-and-clubs #g-slides .slide h2 a {
+    color: #333333;
+}
+
+#g-teams-and-clubs #g-slides .slide.faded {
+    color: #cccccc;
+}
+
+#g-teams-and-clubs #g-slides .slide.faded h2 a {
+    color: #cccccc;
+}
+
+#g-teams-and-clubs #g-slides .legend .item {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: nyt-franklin;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#g-teams-and-clubs #g-slides .legend .item .color {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    margin-right: 5px;
+    vertical-align: baseline;
+    position: relative;
+    top: 0px;
+}
+
+#g-teams-and-clubs #g-slides .slide.faded .legend .color {
+    opacity: 0.4;
+}
+
+#g-teams-and-clubs #g-slides .legend .item .label {
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+#g-teams-and-clubs #g-slides .filter-row {
+    margin: 10px 0 30px;
+}
+
+#g-teams-and-clubs #g-slides .filter-row h3 {
+    font-size: 15px;
+    font-family: nyt-franklin;
+    margin: 0 0 10px;
+}
+
+#g-teams-and-clubs #g-slides .filter-row .select {
+    margin-bottom: 5px;
+}
+
+#g-teams-and-clubs #g-slides .filter-row .select select {
+    width: 110px;
+}
+
+#g-teams-and-clubs #g-slides .filter-row label {
+    font-size: 14px;
+    font-family: nyt-franklin;
+    display: inline-block;
+    width: 110px;
+}
+
+#g-teams-and-clubs #g-slides .filter-row input {
+    width: 224px;
+}
+
+#g-teams-and-clubs #g-slides .slide.faded .filter-row label {
+    color: #bbbbbb;
+}
+
+#g-teams-and-clubs #g-slides .slide.faded .filter-row select,
+#g-teams-and-clubs #g-slides .slide.faded .filter-row input {
+    opacity: 0.4;
+}
+
+.story.theme-main .interactive-leadin.summary {
+    display: none;
+}
+
+.story.theme-main .interactive-byline .byline-dateline .byline {
+    font-size: 11px;
+    font-size: 0.6875rem;
+    line-height: 14px;
+    line-height: 0.875rem;
+    font-weight: 700;
+    font-family: "nyt-franklin", arial, helvetica, sans-serif;
+}
+
+.story.theme-main .story-header .story-meta .byline+.dateline {
+    margin-left: 7px;
+}
+
+.kicker-container .g-kicker-brazil {
+    position: absolute;
+    left: 0;
+    font-family: "nyt-karnak-display-130124", serif;
+    font-size: 18px;
+    padding-bottom: 4px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    border-bottom: 1px solid #00a859;
+}
+
+.kicker-container .interactive-kicker {
+    display: none;
+}
+
+p.interactive-leadin,
+.interactive-byline {
+    display: block;
+}
+
+html .story.theme-main .story-header .interactive-headline.story-heading {
+    font-size: 60px;
+    letter-spacing: 5px;
+    font-family: "nyt-franklin", arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.1;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 550px;
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 30px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialias;
+}
