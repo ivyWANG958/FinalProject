@@ -5057,28 +5057,32 @@ define("data/full.json", [], function() {
                 { group: "E", country: "Colombia", region: "Asia", type: "team", id: "Colombia" }, //Fundation
                 { group: "E", country: "Greece", region: "Asia", type: "team", id: "Greece" }, //Banking
 
+
+
+                // "Hong Kong", "Singapore", "Japan", "Mainland China", "Vietnam"
                 // cannot delete
                 { group: "D", country: "Uruguay", region: "South America", type: "team", id: "Uruguay", stage: 1 },
                 // 21
                 { country: "Hong Kong", premier: !1, team_count: 2, type: "club", id: "Tech", confederation: "AFC" },
-                { country: "Hong Kong", premier: !1, team_count: 2, type: "club", id: "Media", confederation: "AFC" },
-                { country: "Hong Kong", premier: !1, team_count: 2, type: "club", id: "Communication", confederation: "AFC" },
+                { country: "Singapore", premier: !1, team_count: 2, type: "club", id: "Media", confederation: "AFC" },
+                { country: "Japan", premier: !1, team_count: 2, type: "club", id: "Communication", confederation: "AFC" },
 
                 //24
-                { country: "Hong Kong", premier: !1, team_count: 2, type: "club", id: "Financial Services", confederation: "CAF" },
-                { country: "Hong Kong", premier: !1, team_count: 2, type: "club", id: "Property", confederation: "CAF" },
-                { country: "Hong Kong", premier: !1, team_count: 2, type: "club", id: "Infrastructure", confederation: "CAF" },
+                { country: "Vietnam", premier: !1, team_count: 2, type: "club", id: "Financial Services", confederation: "CAF" },
+                { country: "Mainland China", premier: !1, team_count: 2, type: "club", id: "Property", confederation: "CAF" },
+                { country: "Japan", premier: !1, team_count: 2, type: "club", id: "Infrastructure", confederation: "CAF" },
 
+                // "UEFA","CONMEBOL","CONCACAF","AAS","QQW"
                 //27
                 { country: "Hong Kong", premier: !1, team_count: 2, type: "club", id: "Insurance&Bank", confederation: "UEFA" },
 
-                { country: "Hong Kong", premier: !1, team_count: 2, type: "club", id: "Energy", confederation: "CONMEBOL" },
+                { country: "Global", premier: !1, team_count: 2, type: "club", id: "Energy", confederation: "CONMEBOL" },
 
-                { country: "Hong Kong", premier: !1, team_count: 2, type: "club", id: "Charity", confederation: "CONCACAF" },
+                { country: "Global", premier: !1, team_count: 2, type: "club", id: "Charity", confederation: "CONCACAF" },
 
-                { country: "Hong Kong", premier: !1, team_count: 2, type: "club", id: "Retail", confederation: "AAS" },
+                { country: "Global", premier: !1, team_count: 2, type: "club", id: "Retail", confederation: "AAS" },
 
-                { country: "Hong Kong", premier: !1, team_count: 2, type: "club", id: "ports and services", confederation: "QQW" },
+                { country: "Global", premier: !1, team_count: 2, type: "club", id: "ports and services", confederation: "QQW" },
 
                 //{ name: "Richard", short_name: "Rich", team: "Australia", club: "TMT", country: "Hong Kong", type: "player", id: "Richard" },
 
@@ -8807,7 +8811,7 @@ define("data/full.json", [], function() {
     }),
     define("format/shortPlayerName", [], function() {
         return function(e) {
-            return e.short_name == "V. PERSIE" ? "Van Persie" : e.short_name == "NEYMAR JR" ? "Neymar" : e.short_name.split(" ").map(function(e) {
+            return e.short_name == "V. PERSIE" ? "Van Persie" : e.short_name == "NEYMAR JR" ? "Rich" : e.short_name == "Vic" ? "Vic" : e.short_name == "Rich" ? "Rich" : e.short_name.split(" ").map(function(e) {
                 return e.slice(0, 1) + e.slice(1).toLowerCase()
             }).join(" ")
         }
@@ -8991,7 +8995,7 @@ define("data/full.json", [], function() {
                     F = "id";
                 H.sort(function(e, t) { return e[F] > t[F] ? 1 : e[F] < t[F] ? -1 : 0 }), H.forEach(tt), P.forEach(Z), D.forEach(et), y = B, lt(), b = nt(.8) * A;
                 var I = 40 * b;
-                E.selectAll("defs pattern").attr("width", I).attr("height", I).attr("x", -I * .5).attr("y", -I * .5).append("image").attr("xlink:href", function(e) { return NYTG_ASSETS + "mugs/" + e }).attr("width", I).attr("height", I);
+                E.selectAll("defs pattern").attr("width", I).attr("height", I).attr("x", -I * .5).attr("y", -I * .5).append("image").attr("xlink:href", function(e) { return NYTG_ASSET + "mugs/" + e }).attr("width", I).attr("height", I);
                 var q = 0;
                 o.nodes.forEach(function(e) {
                         q = Math.max(q, e.radius *= b)
@@ -9017,7 +9021,7 @@ define("data/full.json", [], function() {
             function C() {
                 var t = e.values(s),
                     n = 40 * b;
-                E.append("defs").selectAll("pattern").data(t).enter().append("pattern").attr("id", function(e) { return "mug-" + e.replace(".", "-") }).attr("patternUnits", "userSpaceOnUse").attr("width", n).attr("height", n).attr("x", -n * .5).attr("y", -n * .5).append("image").attr("xlink:href", function(e) { return NYTG_ASSETS + "mugs/" + e }).attr("width", n).attr("height", n)
+                E.append("defs").selectAll("pattern").data(t).enter().append("pattern").attr("id", function(e) { return "mug-" + e.replace(".", "-") }).attr("patternUnits", "userSpaceOnUse").attr("width", n).attr("height", n).attr("x", -n * .5).attr("y", -n * .5).append("image").attr("xlink:href", function(e) { return NYTG_ASSET + "mugs/" + e }).attr("width", n).attr("height", n)
             }
 
             function k(e) {
@@ -9044,6 +9048,7 @@ define("data/full.json", [], function() {
         var o, u = {},
             a = { init: function(e, t) { c(e, t) } },
             f = ["Real Madrid CF", "FC Bayern Muenchen", "Juventus FC", "Manchester United FC", "FC Barcelona", "Chelsea FC", "Arsenal FC", "FC Dynamo Moskow", "AC Milan"],
+
             l = ["NEYMAR JR", "SILVA", "SCHWEINSTEIGER", "MESSI", "V. PERSIE", "ROONEY", "RONALDO", "MARTINEZ", "ALEXIS", "SUAREZ", "BALOTELLI", "POGBA", "BRADLEY", "EDUARDO", "KERZHAKOV"];
         return a
     }), define("graph/filter", [], function() {
@@ -9104,7 +9109,10 @@ define("data/full.json", [], function() {
 
         function w(e) { if (e == "CAF") return "property"; if (e == "AFC") return "TMT"; if (e == "CONMEBOL") return "Energy"; if (e == "CONCACAF") return "Charity"; if (e == "UEFA") return "Bank"; if (e == "QQW") return "Ports services "; if (e == "AAS") return "Retail" }
 
-        function S(e) { return e == "England" ? "English Premier League" : e == "Spain" ? "Spanish La Liga" : e == "Germany" ? "German Bundesliga" : e == "Italy" ? "Italian Serie A" : e }
+        // function S(e) { return e == "England" ? "English Premier League" : e == "Spain" ? "Spanish La Liga" : e == "Germany" ? "German Bundesliga" : e == "Italy" ? "Italian Serie A" : e }
+        // change3
+        // "Hong Kong", "Singapore", "Japan", "Mainland China", "Vietnam"
+        function S(e) { return e == "Hong Kong" ? "Hong Kong" : e == "Singapore" ? "Singapore" : e == "Vietnam" ? "Vietnam" : e == "Japan" ? "Japan" : e == "Mainland China" ? "Mainland China" : e }
 
         function C() { N.each(function(e, t) { m[t].offset = this.offsetTop - 300 }) }
 
@@ -9197,25 +9205,76 @@ define("data/full.json", [], function() {
 
         var g = r.scale.ordinal().domain(["UEFA", "CAF", "AFC", "CONMEBOL", "CONCACAF", "QQW", "AAS"]).range(["#DB7093", "#F08080", "#9370DB", "#B0E0E6", "#6B8E23", "#DEB887", "#DDA0DD"]),
             b = R(g.domain().map(w), g.range());
-        m.push({ id: "intro", title: "", text: "On 16 March 2018, billionaire Li Ka Shing announced his retirement in filings for Cheung Kong Hutchison Holdings Limited (CK Hutchison) and Cheung Kong Asset Holdings Limited (CK Asset) to the Hong Kong stock exchange(CK Asset). His elder son Victor Li Tzar-kuoi will take over the chairmanships of the two flagship companies, CK Hutchison and CK Assets. </p>" + b + "", caption: "", filter: I(), clubColors: y }), m.push({
-            id: "brazil-vs-Ghana",
+        m.push({ id: "intro", title: "", text: "On 16 March 2018, billionaire Li Ka Shing announced his retirement in filings for Cheung Kong Hutchison Holdings Limited (CK Hutchison) and Cheung Kong Asset Holdings Limited (CK Asset) to the Hong Kong stock exchange(CK Asset). His elder son Victor Li Tzar-kuoi will take over the chairmanships of the two flagship companies, CK Hutchison and CK Assets. While his yonger son,Richard Tzar-kai, only inherited the foundation from his father. </p>" + b + "", caption: "Richard built up all his buiness on himself, two bothers have little buiness connections, mostly in TMT.", filter: I(), clubColors: y }), m.push({
+            id: "brazil-vs-France",
             title: "Li Tzar-kuoi VS Li Tzar-kai",
-            text: "Based on the related news, it seems Victor Li Tzar-kuoi owns far more than his brother, but what Li Tzar-kai inherit are more actual. Also, Li Tzar-kai is developing his own business, with the full support from his father. These brothers' business do not overlap. They have companies in different areas. ",
-            caption: "",
+            text: "Ck Hutchison is the major company inherited by Li Tzar-kuoi, PCCW Limited is the main business built up by Li Tzar-kai. Two bothers have minor overlap business. Represented by these two companies, they both have various domain business, but the interaction limited in TMT(Technology, Media and Tele-communication) field. ",
+            caption: "TMT is the major business connecting two bothers.",
             clubColors: y,
             zoom: 1.3,
             fixed: !0,
             players: ["NEYMAR JR", "MESSI", "MARCELO", "HENRIQUE", "AGUERO", "DEMICHELIS", "FERNANDINHO", "LAVEZZI", "ALVAREZ"],
 
-            highlightClubs: ["Real Madrid CF", "FC Bayern Muenchen", "Juventus FC", "Manchester City FC", "FC Barcelona", "SSC Napoli", "Arsenal FC", "Paris Saint-Germain FC", "FC Internazionale"],
-            filter: H(["Brazil", "Ghana"])
+            //players: ["Vic", "Rich"],
+            //highlightClubs: ["Real Madrid CF", "FC Bayern Muenchen", "Juventus FC", "Manchester City FC", "FC Barcelona", "SSC Napoli", "Arsenal FC", "Paris Saint-Germain FC", "FC Internazionale"],
+            filter: H(["Brazil", "France"])
         });
-        var E = r.scale.ordinal().domain(["England", "Spain", "Germany", "Italy", "Other Leagues"]).range(["#9ab7d6", "#e5afa4", "#c8e1a3", "#e5d8a3", "#ccc"]);
-        m.push({ id: "uefa", title: "The Asia Connection", text: "Since starting from Hong Kong, many of them were established in Hong Kong, such as Cheung Kong Industries.  </p><p>" + R(E.domain().map(S), E.range()), caption: "", filter: j("UEFA", !1), clubColors: function(e) { var t = e.country; return E.domain().indexOf(t) < 0 && (t = "Other Leagues"), E(t) } }), m.push({ id: "all-but-uefa", title: "The Asia Connection ", text: "Since starting from Hong Kong, many of them were established in Hong Kong, such as Cheung Kong Industries. <p>" + R(g.domain().map(w).slice(1), g.range().slice(1)), caption: " team", filter: j(["CONCACAF", "AFC", "CONMEBOL", "CAF"], !1), clubColors: y, highlightClubs: ["Toronto FC", "New York Red Bulls", "Tigres", "Houston Dynamo", "Cruz Azul FC", "CD Chivas USA", "Melbourne Victory FC", "Sanfrecce ", "CA Monarcas Morelia", "Al Hilal"] }), m.push({ id: "explore", title: "The whole picture", filter: I(), clubColors: y, text: "Actually there are a lot more...</p>" + e(".g-filter-template").html() + b, caption: "" });
+        // var E = r.scale.ordinal().domain(["England", "Spain", "Germany", "Italy", "Other Leagues"]).range(["#9ab7d6", "#e5afa4", "#c8e1a3", "#e5d8a3", "#ccc"]);
+        // change3
+        var E = r.scale.ordinal().domain(["Hong Kong", "Singapore", "Japan", "Mainland China", "Vietnam"]).range(["#9ab7d6", "#e5afa4", "#c8e1a3", "#e5d8a3", "#ccc"]);
+
+        var ZW = r.scale.ordinal().domain(["Global"]).range(["#9ab7d6"]);
+
+        // m.push({
+        //         id: "afc",
+        //         title: "The Asia Connection",
+        //         text: "Since starting from Hong Kong, many of them were established in Hong Kong, such as Cheung Kong Industries.  </p><p>" + R(E.domain().map(S), E.range()),
+        //         caption: "",
+        //         filter: j("AFC", !1),
+        //         clubColors: function(e) { var t = e.country; return E.domain().indexOf(t) < 0 && (t = "Other Leagues"), E(t) }
+        //     }),
+
+        m.push({
+                id: "3chart",
+                title: "The Asia Connection",
+                text: "Since Li Ka-shing start the empire in Hong Kong, many of Li's companies were established in Asia. Here highlighted some major countries, while there are many more minor developments in Macau, Taiwan, Thailand, Philippines, Malaysia, Indonesia, etc.  </p><p>" + R(E.domain().map(S), E.range()),
+                caption: "Li's business which mainly focus on Asia area.",
+                filter: j(["AFC", "CAF", "UEFA"], !1),
+                clubColors: function(e) { var t = e.country; return E.domain().indexOf(t) < 0 && (t = "Global"), E(t) }
+            }),
+
+            // m.push({
+            //     id: "all-but-afc",
+            //     title: "The Asia Connection ",
+            //     text: "Since starting from Hong Kong, many of them were established in Hong Kong, such as Cheung Kong Industries. <p>" + R(g.domain().map(w).slice(1), g.range().slice(1)),
+            //     caption: " team",
+            //     filter: j(["CONCACAF", "UEFA", "CONMEBOL", "CAF"], !1),
+            //     clubColors: y,
+            //     highlightClubs: ["Toronto FC", "New York Red Bulls", "Tigres", "Houston Dynamo", "Cruz Azul FC", "CD Chivas USA", "Melbourne Victory FC", "Sanfrecce ", "CA Monarcas Morelia", "Al Hilal"]
+            // }),
+
+            // "UEFA","CONMEBOL","CONCACAF","AAS","QQW"
+
+            m.push({
+                id: "4chart",
+                title: "The Global Connection ",
+                text: "But Li's various kinds of business also expand to the global market. Like United Kingdom, Australia, North America, Netherlands, Portugal, Ukraine, Germany, Holland, Denmark, French, Italy, etc.<p>" + R(ZW.domain().map(S), ZW.range()),
+                caption: "Li's different kinds of business that spread globally.",
+                filter: j(["CONCACAF", "AAS", "QQW", "CONMEBOL"], !1),
+                //clubColors: y,
+
+                highlightClubs: ["Toronto FC", "New York Red Bulls", "Tigres", "Houston Dynamo", "Cruz Azul FC", "CD Chivas USA", "Melbourne Victory FC", "Sanfrecce ", "CA Monarcas Morelia", "Al Hilal"],
+                clubColors: function(e) { var t = e.country; return E.domain().indexOf(t) < 0 && (t = "Global"), E(t) }
+            }),
+
+            m.push({ id: "explore", title: "The whole picture", filter: I(), clubColors: y, text: "From this single graph, we could first spot Li’s major business fields and well-known companies; secondly, we could conclude the distribution of the property to his two sons after Li’s retirement; finally we could have a board picture of the widely expand business empire that established by Li’s family. But this is just a tip of the iceberg, there are a lot more to dig out, like the dark point Gotak, on the outer circle, is one of Li’s companies that cannot be defined. </p>" + e(".g-filter-template").html() + b, caption: "A tip of the iceberg." });
+
+
+
         var x = Modernizr.touch && window.window.screen.availWidth < 686 ? "mobile" : Modernizr.touch || document.body.clientWidth < 975 ? "tablet" : "scroll",
             T = r.select("#g-slides"),
             N = T.selectAll(".slide").data(m).enter().append("div").attr("class", function(e) { return "slide " + e.id });
-        N.append("div").attr("class", "anchor").attr("id", function(e) { return e.id }), N.append("h2").append("a").attr("href", function(e) { return "#" + e.id }).html(function(e) { return e.title }), x == "mobile" && (N.append("a").attr("class", "img-link").attr("href", function(e, t) { return NYTG_ASSETS + "images/slide-" + (t + 1) + ".png" }).append("img").attr("class", "static").attr("src", function(e, t) { return NYTG_ASSETS + "images/slide-" + (t + 1) + ".png" }), N.append("div").attr("class", "img-caption").text(function(e, t) { return e.caption + (t < 1 && window.screen.availWidth < 400 ? ". Click image to open larger version." : "") })), N.append("p").html(function(e) { return e.text }), x != "mobile" && (N.append("div").attr("class", "img-caption").text(function(e) { return e.caption }), N.append("img").attr("class", "static").attr("src", function(e, t) { return NYTG_ASSETS + "images/slide-" + (t + 1) + ".png" }), e("#g-slides .slide").each(function() {
+        N.append("div").attr("class", "anchor").attr("id", function(e) { return e.id }), N.append("h2").append("a").attr("href", function(e) { return "#" + e.id }).html(function(e) { return e.title }), x == "mobile" && (N.append("a").attr("class", "img-link").attr("href", function(e, t) { return NYTG_ASSET + "images/slide-" + (t + 1) + ".png" }).append("img").attr("class", "static").attr("src", function(e, t) { return NYTG_ASSETS + "images/slide-" + (t + 1) + ".png" }), N.append("div").attr("class", "img-caption").text(function(e, t) { return e.caption + (t < 1 && window.screen.availWidth < 400 ? ". Click image to open larger version." : "") })), N.append("p").html(function(e) { return e.text }), x != "mobile" && (N.append("div").attr("class", "img-caption").text(function(e) { return e.caption }), N.append("img").attr("class", "static").attr("src", function(e, t) { return NYTG_ASSETS + "images/slide-" + (t + 1) + ".png" }), e("#g-slides .slide").each(function() {
             var t = e(this);
             e(".legend", t).appendTo(t)
         })), C(), M();
