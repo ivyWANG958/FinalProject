@@ -9098,7 +9098,7 @@ define("data/full.json", [], function() {
         function h() { e(window).on("resize", function() { e("html").removeClass("g-tablet-landscape").removeClass("g-tablet-portrait").addClass(document.body.clientWidth < 780 ? "g-tablet-portrait" : "g-tablet-landscape") }) }
 
         function p() {
-            var t = e('<div class="g-kicker-brazil">Li 2018</div>'),
+            var t = e('<div class="g-kicker-brazil">Student Project generated from NYT</div>'),
                 n = e("#main").find(".kicker-container");
             t.appendTo(n)
         }
